@@ -1,0 +1,74 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GNA.API",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Story/generate": {
+      "post": {
+        "tags": [
+          "Story"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StoryRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StoryRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StoryRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "StoryRequest": {
+        "type": "object",
+        "properties": {
+          "tema": {
+            "type": "string",
+            "nullable": true
+          },
+          "mekan": {
+            "type": "string",
+            "nullable": true
+          },
+          "zaman": {
+            "type": "string",
+            "nullable": true
+          },
+          "baslangicCumlesi": {
+            "type": "string",
+            "nullable": true
+          },
+          "ekIstek": {
+            "type": "string",
+            "nullable": true
+          },
+          "hedefKelimeSayisi": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

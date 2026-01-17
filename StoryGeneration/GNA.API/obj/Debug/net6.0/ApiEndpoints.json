@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "GNA.API.Controllers.StoryController",
+    "Method": "Generate",
+    "RelativePath": "api/Story/generate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GNA.API.Requests.StoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

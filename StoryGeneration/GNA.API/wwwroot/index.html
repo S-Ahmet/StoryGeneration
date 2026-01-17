@@ -1,0 +1,100 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Hikaye Üretici</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jsPDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+    <div class="main-container">
+
+        <!-- HİKAYE FORMU -->
+        <div class="card">
+            <div class="card-header">Hikaye Üretici</div>
+
+            <form id="storyForm" class="form">
+
+                <div class="row">
+                    <div class="col">
+                        <label>* Tema:</label>
+                        <input type="text" id="tema" placeholder="Örn: Fantastik" required>
+                    </div>
+
+                    <div class="col">
+                        <label>* Mekan:</label>
+                        <input type="text" id="mekan" placeholder="Örn: Karanlık Orman" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col">
+                        <label>* Zaman:</label>
+                        <input type="text" id="zaman" placeholder="Örn: Orta Çağ" required>
+                    </div>
+
+                    <div class="col">
+                        <label>Hedef Kelime Sayısı:</label>
+                        <input type="number" id="hedef" min="50" max="2000" value="150">
+                    </div>
+                </div>
+
+                <label>* Başlangıç Cümlesi:</label>
+                <textarea id="baslangic" placeholder="Örn: Genç savaşçı ormanda kaybolmuştu..." required></textarea>
+
+                <label>Ek İstek:</label>
+                <textarea id="ekIstek" placeholder="Örn: Mutlu son olsun (opsiyonel)"></textarea>
+
+                <button type="submit" class="submit-btn">Hikaye Oluştur</button>
+            </form>
+        </div>
+
+        <!-- OLUŞTURULAN HİKAYE -->
+        <div class="card result-card">
+            <div class="card-header">Oluşturulan Hikaye</div>
+
+            <!-- Butonlar -->
+            <div id="actionBtns" class="hidden" style="margin-bottom: 15px;">
+                <button class="mini-btn" onclick="copyStory()">📋 Kopyala</button>
+                <button class="mini-btn" onclick="downloadPDF()">📄 PDF İndir</button>
+                <button class="mini-btn" onclick="readStory()">🔊 Sesli Oku</button>
+            </div>
+
+            <div id="result" class="hidden">
+                <h3 id="baslik"></h3>
+                <p id="ozet"></p>
+                <div id="hikaye" class="hikaye-box"></div>
+            </div>
+
+            <div id="noStory" class="no-data">
+                Henüz hikaye oluşturulmadı.
+            </div>
+        </div>
+
+        <!-- GEÇMİŞ -->
+        <div class="card">
+            <div class="card-header">
+                Geçmiş Hikayeler
+                <button class="mini-btn" style="float:right" onclick="clearHistory()">🗑 Temizle</button>
+            </div>
+
+            <div id="history"></div>
+        </div>
+
+    </div>
+
+    <!-- 🔍 MODAL DETAY PENCERESİ -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h2 id="modalTitle"></h2>
+            <p id="modalContent"></p>
+            <button class="mini-btn" onclick="closeModal()">Kapat</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

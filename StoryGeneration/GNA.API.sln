@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNA.API", "GNA.API\GNA.API.csproj", "{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFBFC1FE-82F3-4AED-BE05-B6E3DDFFF28E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|c:\\users\\sadik\\downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\newsmcpapi\\newsmcpapi\\gna.api\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|solutionrelative:gna.api\\wwwroot\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|c:\\users\\sadik\\downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\newsmcpapi\\newsmcpapi\\gna.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|solutionrelative:gna.api\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|c:\\users\\sadik\\downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\newsmcpapi\\newsmcpapi\\gna.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|solutionrelative:gna.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|c:\\users\\sadik\\downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\newsmcpapi\\newsmcpapi\\gna.api\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|solutionrelative:gna.api\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|c:\\users\\sadik\\downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\newsmcpapi\\newsmcpapi\\gna.api\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D01C6EE5-21FD-46B0-BA54-D6BDEB763F82}|GNA.API\\GNA.API.csproj|solutionrelative:gna.api\\controllers\\storycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "GNA.API\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\index.html",
+              "RelativeToolTip": "GNA.API\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-12-27T17:57:35.909Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\Program.cs",
+              "RelativeDocumentMoniker": "GNA.API\\Program.cs",
+              "ToolTip": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\Program.cs",
+              "RelativeToolTip": "GNA.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAqwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T21:54:08.848Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\style.css",
+              "RelativeDocumentMoniker": "GNA.API\\wwwroot\\style.css",
+              "ToolTip": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\style.css",
+              "RelativeToolTip": "GNA.API\\wwwroot\\style.css",
+              "ViewState": "AgIAAHMAAAAAAAAAAAAwwJkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-29T22:55:24.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\script.js",
+              "RelativeDocumentMoniker": "GNA.API\\wwwroot\\script.js",
+              "ToolTip": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\wwwroot\\script.js",
+              "RelativeToolTip": "GNA.API\\wwwroot\\script.js",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAYwOYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-12-27T21:02:21.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoryController.cs",
+              "DocumentMoniker": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\Controllers\\StoryController.cs",
+              "RelativeDocumentMoniker": "GNA.API\\Controllers\\StoryController.cs",
+              "ToolTip": "C:\\Users\\sadik\\Downloads\\news_mcp-main(colab)\\news_mcp-main\\news_mcp-main\\NewsMcpAPI\\NewsMcpAPI\\GNA.API\\Controllers\\StoryController.cs",
+              "RelativeToolTip": "GNA.API\\Controllers\\StoryController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvw8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T21:53:24.505Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
